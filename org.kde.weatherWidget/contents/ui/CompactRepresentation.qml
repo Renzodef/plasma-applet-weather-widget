@@ -37,23 +37,6 @@ Item {
     Layout.preferredHeight: compactItem.widgetHeight
     Layout.maximumHeight: onDesktop ? undefined : compactItem.widgetHeight
     
-    PlasmaComponents.Label {
-        id: lastReloadedNotifier
-        
-        anchors.left: parent.left
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: - partHeight * 0.05
-        verticalAlignment: Text.AlignBottom
-        
-        font.pixelSize: partHeight * 0.26 * (layoutType === 2 ? 0.7 : 1)
-        font.pointSize: -1
-        color: theme.highlightColor
-        
-        text: lastReloadedText
-        
-        visible: false
-    }
-    
     MouseArea {
         anchors.fill: parent
         
