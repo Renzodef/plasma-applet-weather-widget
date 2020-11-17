@@ -8,7 +8,7 @@ Plasma 5 applet for displaying weather information from yr.no (and other) server
 
 ## Compile and install
 ```
-git clone https://github.com/Renzodef/plasma-applet-weather-widget
+git clone z
 cd plasma-applet-weather-widget
 mkdir build
 cd build
